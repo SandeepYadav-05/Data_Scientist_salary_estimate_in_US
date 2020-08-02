@@ -188,10 +188,3 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
             break
 
     return pd.DataFrame(jobs)  #This line converts the dictionary object into a pandas DataFrame.
-#This will open a new chrome window and start the scraping.
-
-import glassdoor_scraper as gs
-import pandas as pd
-path = "C:/Users/foxbee/Documents/ds_salary_proj/chromedriver"
-
-df = gs.get_jobs('data scientist', 10, False, path, 10)
