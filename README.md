@@ -1,1 +1,1 @@
-# ds_salary_proj
+# Data Scientist salary estimate in US
