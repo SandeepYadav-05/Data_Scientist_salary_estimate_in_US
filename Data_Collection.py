@@ -6,7 +6,6 @@ Created on Sun Aug  2 13:49:44 2020
 """
 
 import glassdoor_scraper as gs
-import pandas as pd
 path = "C:/Users/foxbee/Documents/ds_salary_proj/chromedriver"
 
 df = gs.get_jobs('data scientist', 1000, False, path, 5)
